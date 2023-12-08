@@ -1,0 +1,68 @@
+.carouselContainer {
+    margin: 20px;
+  }
+  
+  .carouselContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .carouselContainer p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para o carrossel de imagens */
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-list:focus {
+    outline: none;
+  }
+  
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    padding: 0 8px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }

@@ -1,0 +1,31 @@
+.container_login{
+    display: flex;
+    background-color: #E5E5E5;
+    height: 100;
+}
+.container_imagem{
+    width: 50%;
+    height: 100vh;
+
+}
+.img{
+    height: 100%;
+}
+.image_top {
+    position: absolute;
+    background-image: url('../../assets/treino.svg');
+    height: 136%;
+    width: 50%;
+    border: none;
+    top: 0;
+    left: 0;
+    filter:grayscale(0) blur(3px) opacity(90%);
+    clip-path: polygon(0% 0%, 100% 0%, 40% 100%, 0% 100%);
+}
+
+.logo{
+    filter: opacity(90%);
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
